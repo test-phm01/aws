@@ -1,4 +1,4 @@
-# 빌드 할 때에는 jdk 17버전을 사용하겠다
+# 빌드 할 때에는 jdk 17버전을 사용하겠다.
 FROM eclipse-temurin:17-jdk AS build
 
 ARG EC2_HOST
