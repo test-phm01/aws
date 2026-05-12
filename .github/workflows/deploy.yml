@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    if: github.repository == 'test-hds1/test'
+    if: github.repository == 'test-phm01/aws'
     runs-on: ubuntu-24.04
 
     strategy:
